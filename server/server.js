@@ -15,7 +15,7 @@ server.applyMiddleware({ app });
 
 // const mongoose = require("mongoose");
 // mongoose.connect(
-//   process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+//   process.env.MONGODB_URI || 'mongodb://localhost/bookdb',
 //   {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
