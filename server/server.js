@@ -13,16 +13,7 @@ const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({ typeDefs, resolvers, context: authMiddleware, });
 server.applyMiddleware({ app });
 
-// const mongoose = require("mongoose");
-// mongoose.connect(
-//   process.env.MONGODB_URI || 'mongodb://localhost/bookdb',
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//     useFindAndModify: false,
-//   },
-// );
+
 
 
 app.use(express.urlencoded({ extended: true }));
